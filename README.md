@@ -17,33 +17,48 @@ Some different accents are combined under a single key, for example ç, ȩ, and 
 
 ## Dead Keys
 
-All combinations are made using the right `Alt` key, also known as `AltGr` or `Alt-Ctrl`.
+All combinations are made using the right `Alt` key, also known as `AltGr` or `Alt-Ctrl`. When you use this and press one of the defined keys, that key becomes a dead key. It doesn't do anything right away but it modifies the key that follows.
+
+Normally, when you type an apostrophe, you get an apostrophe. When you press and hold the `AltGr`, press the `'`, and then release the `AltGr` key, the apostrophe has turned into a dead key. The key that you press after this will become modified, provided a modification has been defined.
+
+So to type `á`, you type the dead key `'` and then the `a`. This means: you press and hold the `AltGr`, press the `'`, and then you let go of the `AltGr` key. Then you press the `a` key.
 
 
 ## Overview
 
 | accent | description       | dead key         | key       | letters                                     |
 | ------ | ----------------- | ---------------- | --------- | ------------------------------------------- |
-| ´      | acute accent      | ' (apostrophe)   | a-z       | á é í ĺ ń ó ŕ ś ú ý ź Á É Í Ĺ Ń Ó Ŕ Ś Ú Ý Ź |
-| `      | grave accent      | ` (back tick)    | a-z       | à è ì ǹ ò ù ẁ ỳ À È Ì Ǹ Ò Ù Ẁ Ỳ             |
+| ´      | acute accent      | ' (apostrophe)   | a-z       | á é í ĺ ń ó ŕ ś ú ý ź<br />Á É Í Ĺ Ń Ó Ŕ Ś Ú Ý Ź |
+| `  | grave accent | ` (back tick) |a-z|à è ì ǹ ò ù ẁ ỳ<br />À È Ì Ǹ Ò Ù Ẁ Ỳ|
 | ̈       | umlaut, diaeresis | " (quote)        | a-z       | ä ë ï ö ü ẅ ÿ Ä Ë Ï Ö Ü Ẅ Ÿ                 |
 | ˜      | tilde accent      | ~ (tilde)        | a-z       | ã ĩ ñ õ ũ Ã Ĩ Ñ Õ Ũ                         |
 | ¸ ˛    | cedilla, ogonek   | , (comma)        | a-z       | ç ķ ņ ŗ ş ţ Ç Ģ Ķ Ļ Ņ Ŗ Ş Ţ ȩ Ȩ             |
-| ˙ •    | dot above, bullet | . (period)       | a-z .     | ċ ė ġ ż Ċ Ė Ġ Ż •                           |
+| ˙    | dot above | . (period)       | a-z     | ċ ė ġ ż Ċ Ė Ġ Ż                           |
+| • | bullet | . (period) | . | • |
 | / -    | dash, strike      | / (slash)        | a-z       | ł ø Ł Ø đ Đ ħ Ħ ŧ Ŧ                         |
 | -      | currencies        | - (dash)         | e l y s c | € £ ¥ $ ¢                                   |
 |        | dashes            | - (dash)         | n m       | – —                                         |
-| =      | mathematical      | = (equals sign)  | / x +     | ÷ × ±                                       |
+| =      | mathematical      | =  | / x +     | ÷ × ±                                       |
 | &      | compounds         | &                | a o i     | æ Æ œ Œ ĳ Ĳ                                 |
 | o      | ring              | o (small letter) | a u       | å ů Å Ů                                     |
 |        | circle            | o (small letter) | c r p t   | © ® ℗ ™                                     |
 |        |                   | o (small letter) | %         | ‰                                           |
-| ^      |                   | ^                |           | â ĉ ê ĝ ĥ î ĵ ô ŝ û ŵ Â Ĉ Ê Ĝ Ĥ Î Ĵ Ô Ŝ Û Ŵ |
+| ^      |                   | ^                |           | â ĉ ê ĝ ĥ î ĵ ô ŝ û ŵ<br />Â Ĉ Ê Ĝ Ĥ Î Ĵ Ô Ŝ Û Ŵ |
 | +      | superscript signs | + (plus sign)    | o         | °                                           |
+
+Because in Swedish, the ä, ö, and å are very common, I added extra shortcuts for these:
+
+| character | dead key | key  | shortcut combination |
+| --------- | -------- | ---- | -------------------- |
+| ä         | "        | a    | `AltGr` `j`          |
+| ö         | "        | o    | `AltGr` `k`          |
+| å         | o        | a    | `AltGr` `l`          |
+
+
 
 ## Installation
 
-The `EU-Intl.klc` file is the file to open with Microsoft Keyboard Layout Creator.
+The `EU-Intl.klc` file is the file to open with Microsoft Keyboard Layout Creator. From there you can compile the DLLs and installation files yourself.
 
 The `EU-Intl` directory contains the compiled DLLs and also the `msi` files to install the definitions.
 
