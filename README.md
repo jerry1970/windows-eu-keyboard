@@ -8,7 +8,11 @@ A keyboard layout definition adding most European characters to a US-Intl keyboa
 
 Having only used the US Intl keyboard layout and trying to keep a database of my music collection which included many East-European album and song titles, I needed an easier way to type in all those characters so I set out to make a keyboard definition for that.
 
-After I switched to Linux, where this was so much easier to do, I forgot about it. But now I am working with Windows again and living in Sweden, using a language that has a lot of `ä`s, `ö`s, and `å`s, I had to dig up these defintions again.
+After I switched to Linux, where this was so much easier to do, I forgot about it. But now I am working with Windows again and living in Sweden, using a language that has a lot of `ä`-s, `ö`-s, and `å`-s, I had to dig up these definitions again.
+
+Besides some accented letters I added some other UTF8 characters I sometimes need, like n-dash and m-dash, degrees sign, bullet, some mathematical signs.
+
+Some different accents are combined under a single key, for example ç, ȩ, and ņ are all done with the comma.
 
 
 ## Dead Keys
@@ -37,6 +41,12 @@ All combinations are made using the right `Alt` key, also known as `AltGr` or `A
 | ^      |                   | ^                |           | â ĉ ê ĝ ĥ î ĵ ô ŝ û ŵ Â Ĉ Ê Ĝ Ĥ Î Ĵ Ô Ŝ Û Ŵ |
 | +      | superscript signs | + (plus sign)    | o         | °                                           |
 
+## Installation
+
+The `EU-Intl.klc` file is the file to open with Microsoft Keyboard Layout Creator.
+
+The `EU-Intl` directory contains the compiled DLLs and also the `msi` files to install the definitions.
+
 
 
 ## To Do
@@ -49,7 +59,7 @@ Dead key `&` is set to `7` (forgot to add Shift state).
 
 ### New
 
-I'd like to add the following soon:
+I'd like to add the following:
 
 | character                            | dead key | key    |
 | ------------------------------------ | -------- | ------ |
