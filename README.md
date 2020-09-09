@@ -8,7 +8,7 @@ A keyboard layout definition adding most European characters to a US-Intl keyboa
 
 Having only used the US Intl keyboard layout and trying to keep a database of my music collection which included many East-European album and song titles, I needed an easier way to type in all those characters so I set out to make a keyboard definition for that.
 
-After I switched to Linux, where this was so much easier to do, I forgot about it. But now I am working with Windows again and living in Sweden, using a language that has a lot of `ä`-s, `ö`-s, and `å`-s, I had to dig up these definitions again.
+After I switched to Linux, where this was so much easier to do, I forgot about it. But now I am working with Windows again and also living in Sweden, using a language that has a lot of `ä`-s, `ö`-s, and `å`-s, I had to dig up these definitions again.
 
 Besides some accented letters I added some other UTF8 characters I sometimes need, like n-dash and m-dash, degrees sign, bullet, some mathematical signs.
 
@@ -68,7 +68,7 @@ The `EU-Intl` directory contains the compiled DLLs and also the `msi` files to i
 
 ### Bugs
 
-Dead key `&` is set to `7` (forgot to add Shift state).
+~~Dead key `&` is set to `7` (forgot to add Shift state).~~
 
 
 
